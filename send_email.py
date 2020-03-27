@@ -44,7 +44,7 @@ def send_secret_santas(participants):
         subject = "Your Secret Santa Assignment!"
         send_email(name, email, subject, message_body)
 
-PARTICIPANTS = [('Harry Potter', 'potter@hogwarts.com'), ('Hermione Granger', "hermione@hogwarts.com")]
+PARTICIPANTS = [('Harry Potter', 'potter@hogwarts.edu'), ('Hermione Granger', "hermione@hogwarts.edu")]
 
 if __name__ == "__main__":
 
